@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    //
+    // Every config first runs "adb reverse 8000" (see tasks.json) so the
+    // Android emulator / a USB phone reaches the backend at 127.0.0.1:8000.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "rockie_store",
+            "request": "launch",
+            "type": "dart",
+            "preLaunchTask": "adb reverse 8000"
+        },
+        {
+            "name": "rockie_store (web)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "chrome",
+            "args": [
+                "--web-port=5000",
+                "--web-browser-flag=--disable-web-security"
+            ]
+        },
+        {
+            "name": "rockie_store (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "preLaunchTask": "adb reverse 8000"
+        },
+        {
+            "name": "rockie_store (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "preLaunchTask": "adb reverse 8000"
+        }
+    ]
+}

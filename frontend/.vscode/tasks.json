@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            // Lets the emulator (or a USB phone) reach the backend on this PC at
+            // 127.0.0.1:8000 through adb, instead of 10.0.2.2, which loses
+            // bytes on larger downloads (images arrive damaged).
+            // Never fails, so Chrome/Windows runs still start without a phone.
+            "label": "adb reverse 8000",
+            "type": "process",
+            "command": "powershell",
+            "args": [
+                "-NoProfile",
+                "-Command",
+                "& \"$env:LOCALAPPDATA\\Android\\Sdk\\platform-tools\\adb.exe\" reverse tcp:8000 tcp:8000 2>$null; exit 0"
+            ],
+            "presentation": { "reveal": "silent" },
+            "problemMatcher": []
+        },
+        {
+            // The tunnel above disappears whenever the emulator or adb
+            // restarts. This keeps re-creating it every 5 seconds while the
+            // project is open, so the app never loses the backend.
+            // Starts when the folder opens (VS Code asks once to allow
+            // automatic tasks); or run it via Terminal > Run Task.
+            "label": "keep adb tunnel",
+            "type": "process",
+            "command": "powershell",
+            "args": [
+                "-NoProfile",
+                "-Command",
+                "$adb = \"$env:LOCALAPPDATA\\Android\\Sdk\\platform-tools\\adb.exe\"; Write-Host 'Keeping adb reverse tcp:8000 alive (close this terminal to stop)'; while ($true) { & $adb reverse tcp:8000 tcp:8000 2>$null | Out-Null; Start-Sleep -Seconds 5 }"
+            ],
+            "isBackground": true,
+            "runOptions": { "runOn": "folderOpen" },
+            "presentation": { "reveal": "never", "panel": "dedicated" },
+            "problemMatcher": []
+        }
+    ]
+}

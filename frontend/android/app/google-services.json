@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "656851473485",
+    "project_id": "rockie-store",
+    "storage_bucket": "rockie-store.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656851473485:android:2d47b7415c4749d551b804",
+        "android_client_info": {
+          "package_name": "com.example.rockie_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656851473485-rkpj17f33ipg8dus4vtqt2q5lgvg4ret.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rockie_store",
+            "certificate_hash": "35fcad1a4e8d35d645d42ebb11538c11b56b4962"
+          }
+        },
+        {
+          "client_id": "656851473485-8b03tv3vchtd007o6d2usa1j572q6om5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKpYBTsgggdx5beQAcoShjrRM4iJ2VqOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656851473485-8b03tv3vchtd007o6d2usa1j572q6om5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656851473485-0ms16ctrs21j4isqe7690jpifckfh6j8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rockieStore"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
