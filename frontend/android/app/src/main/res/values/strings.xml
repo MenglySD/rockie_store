@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Rockie Store</string>
+    <string name="facebook_app_id">2423205635147226</string>
+    <string name="facebook_client_token">a137215000b195dcb5ca5cb1f5375ae2</string>
+    <string name="fb_login_protocol_scheme">fb2423205635147226</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+    // Run configs for the Flutter app in frontend/ when VS Code has the whole
+    // rockie_store folder open. Android runs first set up "adb reverse" (see
+    // tasks.json) so the emulator / a USB phone reaches the backend at
+    // 127.0.0.1:8000.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "rockie_store",
+            "request": "launch",
+            "type": "dart",
+            "cwd": "frontend",
+            "program": "lib/main.dart",
+            "preLaunchTask": "adb reverse 8000"
+        },
+        {
+            "name": "rockie_store (web)",
+            "request": "launch",
+            "type": "dart",
+            "cwd": "frontend",
+            "program": "lib/main.dart",
+            "deviceId": "chrome",
+            "args": [
+                "--web-port=5000",
+                "--web-browser-flag=--disable-web-security"
+            ]
+        }
+    ]
+}

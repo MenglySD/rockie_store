@@ -1,0 +1,878 @@
+{
+    "_comment": "Converted from the Flutter app's lib/data/products_cart.dart. Image paths are Flutter asset paths; the seeder maps assets/images/<path> to storage/seed-images/<path>. Every combination of colors x sizes becomes one product variant with stock_per_variant units.",
+    "categories": [
+        {
+            "slug": "womens-clothing",
+            "name": "Women's Clothing",
+            "image": "assets/images/product/dresspink.png",
+            "sort_order": 1
+        },
+        {
+            "slug": "womens-shoes",
+            "name": "Women's Shoes",
+            "image": "assets/images/womenshoes.png",
+            "sort_order": 2
+        },
+        {
+            "slug": "mens-clothing",
+            "name": "Men's Clothing",
+            "image": "assets/images/menshirt.png",
+            "sort_order": 3
+        },
+        {
+            "slug": "mens-shoes",
+            "name": "Men's Shoes",
+            "image": "assets/images/menshoes.png",
+            "sort_order": 4
+        },
+        {
+            "slug": "jeans",
+            "name": "Jeans",
+            "image": "assets/images/jeans.png",
+            "sort_order": 5
+        },
+        {
+            "slug": "pants",
+            "name": "Pants",
+            "image": "assets/images/pants.png",
+            "sort_order": 6
+        },
+        {
+            "slug": "shoes",
+            "name": "Shoes",
+            "image": "assets/images/product/shoesblue.png",
+            "sort_order": 7
+        },
+        {
+            "slug": "t-shirt",
+            "name": "T-Shirt",
+            "image": "assets/images/product/witeshirtmen.png",
+            "sort_order": 8
+        },
+        {
+            "slug": "sweater",
+            "name": "Sweater",
+            "image": "assets/images/product/sweartermen.png",
+            "sort_order": 9
+        },
+        {
+            "slug": "jackets",
+            "name": "Jackets",
+            "image": "assets/images/jackets.png",
+            "sort_order": 10
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "title": "Slip-On Loafers for Men, Formal Business Leather Shoes, Men's Commuting Slip-Ons",
+            "description": "Formal business leather loafers with an easy slip-on fit for daily commuting.",
+            "category": "mens-shoes",
+            "extra_categories": [
+                "shoes"
+            ],
+            "price": "25.00",
+            "original_price": "33.33",
+            "sold": "70+",
+            "rating": 4.5,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Black",
+                "Brown"
+            ],
+            "sizes": [
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44"
+            ],
+            "images": [
+                "assets/images/product/loafers1.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Banana",
+                    "avatar": "🍌",
+                    "rating": 5,
+                    "days_ago": 2,
+                    "text": "The design is simple yet stylish, perfectly capturing the versatility of loafers. I love it.",
+                    "images": [
+                        "assets/images/feedback/loafer1.jpg",
+                        "assets/images/feedback/loafer2.jpg",
+                        "assets/images/feedback/loafer3.jpg"
+                    ]
+                },
+                {
+                    "name": "Marco T.",
+                    "avatar": "🧢",
+                    "rating": 5,
+                    "days_ago": 5,
+                    "text": "True to size and the leather feels genuinely premium for the price. Wore them to a wedding, held up great.",
+                    "images": [
+                        "assets/images/feedback/loafer3.jpg"
+                    ]
+                },
+                {
+                    "name": "Ken A.",
+                    "avatar": "🧔",
+                    "rating": 4,
+                    "days_ago": 7,
+                    "text": "Comfortable out of the box, no break-in pain. Shipping took a little longer than expected.",
+                    "images": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Japanese-Style Three-Dimensional Pleated Wide-Leg Pants for Men",
+            "description": "Relaxed wide-leg pants with three-dimensional pleats in a Japanese style.",
+            "category": "mens-clothing",
+            "extra_categories": [
+                "pants"
+            ],
+            "price": "22.00",
+            "original_price": "44.00",
+            "sold": "75+",
+            "rating": 4.8,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 25,
+            "colors": [
+                "Black",
+                "Grey"
+            ],
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "images": [
+                "assets/images/product/pants.png",
+                "assets/images/product/pants2.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 3,
+            "title": "Stand-Up Collar Jacket, Loose Fit Jacket, Biker Jacket, Sweatshirt, Trendy",
+            "description": "Loose-fit stand-up collar biker jacket with a trendy streetwear look.",
+            "category": "jackets",
+            "extra_categories": [
+                "mens-clothing"
+            ],
+            "price": "31.00",
+            "original_price": "31.00",
+            "sold": "80+",
+            "rating": 4.2,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 15,
+            "colors": [
+                "Black",
+                "Army Green"
+            ],
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "images": [
+                "assets/images/product/jkboxer.png",
+                "assets/images/product/jkboxer2.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 4,
+            "title": "Wang Anyu Style National Trend New Chinese-Style Button Jacket Couple Outfit Spring Loose Suede Tang Suit Thin Coat",
+            "description": "Thin suede Tang-suit coat with Chinese-style buttons, a loose fit for spring.",
+            "category": "jackets",
+            "extra_categories": [],
+            "price": "28.00",
+            "original_price": "37.33",
+            "sold": "85+",
+            "rating": 4.9,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 15,
+            "colors": [
+                "Brown",
+                "Black"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "images": [
+                "assets/images/product/chinesjk.png",
+                "assets/images/product/chinesjk2.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 5,
+            "title": "Slip-On Loafers, Black Derby Shoes, Men's Lazy Shoes, Business Formal Casual British Style Leather Shoes for Men",
+            "description": "British-style black leather derby loafers for business and casual wear.",
+            "category": "mens-shoes",
+            "extra_categories": [
+                "shoes"
+            ],
+            "price": "35.00",
+            "original_price": "70.00",
+            "sold": "90+",
+            "rating": 4.4,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 8,
+            "colors": [
+                "Black"
+            ],
+            "sizes": [
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44"
+            ],
+            "images": [
+                "assets/images/product/loafers2.png",
+                "assets/images/product/loafers21.png",
+                "assets/images/product/loafers22.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 6,
+            "title": "Bmob Spring and Autumn Lazy Style Knitted Cardigan Sweater Men's Japanese Trendy Brand Loose Casual Couple Jacket Top",
+            "description": "Loose knitted cardigan in a relaxed Japanese style for spring and autumn.",
+            "category": "mens-clothing",
+            "extra_categories": [
+                "sweater"
+            ],
+            "price": "24.00",
+            "original_price": "24.00",
+            "sold": "95+",
+            "rating": 5,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Grey",
+                "Beige"
+            ],
+            "sizes": [
+                "M",
+                "L",
+                "XL"
+            ],
+            "images": [
+                "assets/images/jkjak.png",
+                "assets/images/jkjak2.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 7,
+            "title": "Long-Sleeved Shirt for Men, Autumn Korean Style, Light Mature Casual Shirt",
+            "description": "Korean-style long-sleeved casual shirt for autumn.",
+            "category": "mens-clothing",
+            "extra_categories": [
+                "t-shirt"
+            ],
+            "price": "39.00",
+            "original_price": "52.00",
+            "sold": "99+",
+            "rating": 4.6,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "White",
+                "Light Blue"
+            ],
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "images": [
+                "assets/images/product/shirtman.png",
+                "assets/images/product/shirtman2.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 8,
+            "title": "Korean Style Melard Outfit Caramel Coffee Color Knitted Cardigan Sweater Jacket for Women 2026 New Autumn Lazy Top",
+            "description": "Caramel coffee knitted cardigan with a relaxed autumn fit.",
+            "category": "womens-clothing",
+            "extra_categories": [
+                "sweater"
+            ],
+            "price": "27.00",
+            "original_price": "54.00",
+            "sold": "70+",
+            "rating": 4.1,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Caramel Coffee"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "images": [
+                "assets/images/product/jkjakwomen2.png",
+                "assets/images/product/jkjakwomen.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 9,
+            "title": "Brown British Style Small Leather Shoes Loafers Jk Shoes for Women",
+            "description": "British-style small leather loafers in brown.",
+            "category": "womens-shoes",
+            "extra_categories": [
+                "shoes"
+            ],
+            "price": "33.00",
+            "original_price": "33.00",
+            "sold": "75+",
+            "rating": 4.7,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 15,
+            "colors": [
+                "Brown",
+                "Black"
+            ],
+            "sizes": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39"
+            ],
+            "images": [
+                "assets/images/product/loafwomen.png",
+                "assets/images/product/loafwomen2.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 10,
+            "title": "Orange-Red Shirt, Early Autumn Women's Clothing",
+            "description": "Bright orange-red shirt for early autumn.",
+            "category": "womens-clothing",
+            "extra_categories": [
+                "t-shirt"
+            ],
+            "price": "20.00",
+            "original_price": "26.67",
+            "sold": "80+",
+            "rating": 4.3,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 25,
+            "colors": [
+                "Orange-Red"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "images": [
+                "assets/images/product/redshirt.png",
+                "assets/images/product/redshirt2.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 11,
+            "title": "Brown Wide-Leg Jeans for Women",
+            "description": "Wide-leg jeans in a warm brown wash.",
+            "category": "womens-clothing",
+            "extra_categories": [
+                "jeans"
+            ],
+            "price": "29.00",
+            "original_price": "58.00",
+            "sold": "85+",
+            "rating": 4.9,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Brown"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "images": [
+                "assets/images/product/jeanwomen.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 12,
+            "title": "French Gentle Style Floral Polka Dot Fishtail Long Skirt for Women",
+            "description": "French-style long fishtail skirt with a floral polka-dot print.",
+            "category": "womens-clothing",
+            "extra_categories": [],
+            "price": "36.00",
+            "original_price": "36.00",
+            "sold": "90+",
+            "rating": 4.5,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 15,
+            "colors": [
+                "Pink"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "images": [
+                "assets/images/product/skirtpink.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 13,
+            "title": "Women's Loafers Flat Shoes 2026 Spring New Style Shallow Casual",
+            "description": "Shallow casual flat loafers for spring.",
+            "category": "womens-shoes",
+            "extra_categories": [
+                "shoes"
+            ],
+            "price": "23.00",
+            "original_price": "30.67",
+            "sold": "95+",
+            "rating": 4.2,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Pink",
+                "Beige"
+            ],
+            "sizes": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39"
+            ],
+            "images": [
+                "assets/images/product/shoespink.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 14,
+            "title": "Brown Suit Pants for Women 2026 New Summer Drapey Casual",
+            "description": "Drapey brown suit pants for summer.",
+            "category": "womens-clothing",
+            "extra_categories": [
+                "pants"
+            ],
+            "price": "32.00",
+            "original_price": "64.00",
+            "sold": "99+",
+            "rating": 4.8,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Brown"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "images": [
+                "assets/images/product/pantswomen.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 15,
+            "title": "Big Girl Thick-Soled Breathable German Training Shoes Women's",
+            "description": "Breathable thick-soled German training shoes.",
+            "category": "womens-shoes",
+            "extra_categories": [
+                "shoes"
+            ],
+            "price": "38.00",
+            "original_price": "38.00",
+            "sold": "70+",
+            "rating": 4.4,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 15,
+            "colors": [
+                "Blue",
+                "White"
+            ],
+            "sizes": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39"
+            ],
+            "images": [
+                "assets/images/product/shoesblue.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 16,
+            "title": "A-Line Skirt for Women 2026 New Summer",
+            "description": "Classic A-line skirt for summer.",
+            "category": "womens-clothing",
+            "extra_categories": [],
+            "price": "26.00",
+            "original_price": "34.67",
+            "sold": "75+",
+            "rating": 5,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Brown"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "images": [
+                "assets/images/product/skirtbrown.png",
+                "assets/images/product/skirtbrown2.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 17,
+            "title": "Women's Clothing, Gentle Square-Neck Floral Dress for Women",
+            "description": "Gentle square-neck dress with a floral print.",
+            "category": "womens-clothing",
+            "extra_categories": [],
+            "price": "34.00",
+            "original_price": "68.00",
+            "sold": "80+",
+            "rating": 4.6,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 15,
+            "colors": [
+                "Pink"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "images": [
+                "assets/images/product/dresspink.png",
+                "assets/images/product/dresspink2.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 18,
+            "title": "Thickened Crew Neck Sweater for Men",
+            "description": "Warm thickened crew-neck sweater.",
+            "category": "mens-clothing",
+            "extra_categories": [
+                "sweater"
+            ],
+            "price": "21.00",
+            "original_price": "21.00",
+            "sold": "85+",
+            "rating": 4.1,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 25,
+            "colors": [
+                "Grey",
+                "Navy"
+            ],
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "images": [
+                "assets/images/product/sweartermen.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 19,
+            "title": "Thickened Crew Neck Sweater for Women",
+            "description": "Warm thickened crew-neck sweater.",
+            "category": "womens-clothing",
+            "extra_categories": [
+                "sweater"
+            ],
+            "price": "30.00",
+            "original_price": "40.00",
+            "sold": "90+",
+            "rating": 4.7,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 25,
+            "colors": [
+                "Cream",
+                "Pink"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "images": [
+                "assets/images/product/sweatergirl.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 20,
+            "title": "Henry Collar T-Shirt for Men, Waffle Texture, Loose Long-Sleeved Half-Button Placket Collar Polo Shirt",
+            "description": "Loose long-sleeved henley with a waffle texture and half-button placket.",
+            "category": "mens-clothing",
+            "extra_categories": [
+                "t-shirt"
+            ],
+            "price": "37.00",
+            "original_price": "74.00",
+            "sold": "95+",
+            "rating": 4.3,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "White",
+                "Black"
+            ],
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "images": [
+                "assets/images/product/henleymen.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 21,
+            "title": "Style White Long-Sleeved T-Shirt for Men",
+            "description": "Clean white long-sleeved T-shirt.",
+            "category": "mens-clothing",
+            "extra_categories": [
+                "t-shirt"
+            ],
+            "price": "21.00",
+            "original_price": "28.00",
+            "sold": "70+",
+            "rating": 4.8,
+            "review_count": 214,
+            "purchase_limit": 10,
+            "stock_per_variant": 30,
+            "colors": [
+                "White"
+            ],
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "images": [
+                "assets/images/product/witeshirtmen.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 22,
+            "title": "Straight-Leg Denim Jeans for Men",
+            "description": "Straight-leg denim jeans for everyday wear.",
+            "category": "mens-clothing",
+            "extra_categories": [
+                "jeans"
+            ],
+            "price": "24.00",
+            "original_price": "32.00",
+            "sold": "75+",
+            "rating": 4.6,
+            "review_count": 86,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Blue"
+            ],
+            "sizes": [
+                "28",
+                "30",
+                "32",
+                "34",
+                "36"
+            ],
+            "images": [
+                "assets/images/product/jeansman3.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 23,
+            "title": "Casual Blue Jeans for Men",
+            "description": "Casual blue jeans with a comfortable fit.",
+            "category": "mens-clothing",
+            "extra_categories": [
+                "jeans"
+            ],
+            "price": "27.00",
+            "original_price": "54.00",
+            "sold": "85+",
+            "rating": 4.8,
+            "review_count": 124,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Light Blue",
+                "Dark Blue"
+            ],
+            "sizes": [
+                "28",
+                "30",
+                "32",
+                "34",
+                "36"
+            ],
+            "images": [
+                "assets/images/product/jeansman4.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 24,
+            "title": "High-Waisted Jeans for Women",
+            "description": "High-waisted jeans with a flattering fit.",
+            "category": "womens-clothing",
+            "extra_categories": [
+                "jeans"
+            ],
+            "price": "30.00",
+            "original_price": "30.00",
+            "sold": "90+",
+            "rating": 4.7,
+            "review_count": 93,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Blue"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "images": [
+                "assets/images/product/jeanswomen3.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 25,
+            "title": "Relaxed-Fit Pants for Women",
+            "description": "Relaxed-fit pants for all-day comfort.",
+            "category": "womens-clothing",
+            "extra_categories": [
+                "pants"
+            ],
+            "price": "32.00",
+            "original_price": "42.67",
+            "sold": "95+",
+            "rating": 4.5,
+            "review_count": 78,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Beige",
+                "Black"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "images": [
+                "assets/images/product/pantswomen3.png"
+            ],
+            "reviews": []
+        },
+        {
+            "id": 26,
+            "title": "Everyday Casual Pants for Men",
+            "description": "Everyday casual pants with a clean, versatile cut.",
+            "category": "mens-clothing",
+            "extra_categories": [
+                "pants"
+            ],
+            "price": "35.00",
+            "original_price": "70.00",
+            "sold": "99+",
+            "rating": 4.9,
+            "review_count": 156,
+            "purchase_limit": 10,
+            "stock_per_variant": 20,
+            "colors": [
+                "Khaki",
+                "Black"
+            ],
+            "sizes": [
+                "28",
+                "30",
+                "32",
+                "34",
+                "36"
+            ],
+            "images": [
+                "assets/images/product/pantsman3.png"
+            ],
+            "reviews": []
+        }
+    ]
+}
